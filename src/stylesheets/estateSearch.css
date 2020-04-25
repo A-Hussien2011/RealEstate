@@ -1,0 +1,54 @@
+.searchFilters{
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+}
+.searchFilters input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.estateCard{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #cccccc;
+    display: flex;
+    margin: 20px 0;
+}
+.estateCard .estateImage{
+    width: 30%;
+
+    padding: 5px;
+}
+.estateCard .estateImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.estateCard .estateContent{
+    width: 70%;
+    padding: 20px;
+}
+.estateCard .estateContent div{
+    display: flex;
+}
+.estateCard .estateContent button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.estateCard .estateContent button:hover{
+    cursor: pointer;
+}
+.estateCard .estateContent h1{
+    font-size: 20px;
+    font-style: italic;
+    flex: 1;
+}

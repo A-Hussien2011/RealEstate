@@ -1,0 +1,52 @@
+body {
+    /*height: 100vh;*/
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.root {
+    height: 100%;
+}
+
+html {
+    background: url("../assets/background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+.LandingPage{
+    height: 100%;
+}
+.LandingPage .searchDiv {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    /*height: 80px;*/
+
+}
+.LandingPage .searchDiv input {
+    padding: 10px;
+    font-size: 2vw;
+}
+.LandingPage .searchDiv button {
+    padding: 10px;
+    font-size: 2vw;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.MainContainer {
+    height: 90vh;
+    padding: 12vh 10%;
+}
